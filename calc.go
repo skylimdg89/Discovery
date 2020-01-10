@@ -7,7 +7,6 @@ import (
 
 func main() {
 	a := 10.000000000
-	//b
 	b := 3
 	//testing
 	fmt.Println("\nA is type", reflect.TypeOf(a), "and B is of type", reflect.TypeOf(b))
