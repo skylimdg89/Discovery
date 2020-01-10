@@ -1,16 +1,17 @@
 package main
 
-import(
+import (
 	"fmt"
 	"reflect"
 )
 
-func main(){
-		a := 10.0000000000
-		b := 3
+func main() {
+	a := 10.000000000
+	//b
+	b := 3
 
-		fmt.Println("\nA is type", reflect.TypeOf(a), "and B is of type", reflect.TypeOf(b))
+	fmt.Println("\nA is type", reflect.TypeOf(a), "and B is of type", reflect.TypeOf(b))
 
-		c := int(a)+b
-		fmt.Println("\nC has value:", c, "and is of type:", reflect.TypeOf(c))
+	c := int(a) + b
+	fmt.Println("\nC has value:", c, "and is of type:", reflect.TypeOf(c))
 }
